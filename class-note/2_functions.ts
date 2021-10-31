@@ -10,10 +10,10 @@ function add(): number{
 }
 
 // 함수에 타입을 정의하는 방식
-function sum(a: number, b: number): number {
+function sum1(a: number, b: number): number {
   return a;
 }
-sum(10, 20); // 30
+sum1(10, 20); // 30
 // sum(10, 20, 30, 40); 자바스크립트와 다르게 4개의 인자를 넘겼다고 체크해줌
 // sum(10); 인자 개수가 적어도 체크해줌
 
